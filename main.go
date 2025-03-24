@@ -3,10 +3,11 @@ package escpos
 import (
 	"bufio"
 	"fmt"
-	"github.com/qiniu/iconv"
 	"image"
 	"io"
 	"math"
+
+	"github.com/qiniu/iconv"
 )
 
 type Style struct {
